@@ -12,6 +12,7 @@ logic::logic() {
 	word = " ";
 	//scramble = " ";
 	std::srand(static_cast<unsigned int>(std::time(nullptr))); //starts random number generator each time program starts
+	//https://www.softwaretestinghelp.com/random-number-generator-cpp/
 }
 
 void logic::introduction() {
@@ -46,7 +47,7 @@ bool logic::createLists() {
 			largeWords.push_back(word);
 		}
 	}
-//	/*std::cout;
+//	/*std::cout; tested to see if words where read in depending on length
 //	for (const std::string& w : smallWords) {
 //		std::cout << w << "\n";
 //	}
