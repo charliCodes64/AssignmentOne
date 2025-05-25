@@ -5,7 +5,7 @@
 class logic
 {
 public:
-    logic();
+    logic();//done
     //constructor
 
     void introduction(); //done
@@ -15,15 +15,15 @@ public:
     //Opens a file and reads in the list of words that can be scrambled
     //Returns: true if words inserted and false if not
     
-    bool playGame();
+    bool playGame();//done
     //Carries out the actual word scrambling
     //Returns: true if user wins and false if not
     
-    std::string scrambler(std::string word);
+    std::string scrambler(std::string word);//done
     //Takes in a word and scrambles it
     //Returns a scrambled version of the parameter
     
-    void end();
+    void end();//didn't use
     //Displays the endgame information
 
 private:
