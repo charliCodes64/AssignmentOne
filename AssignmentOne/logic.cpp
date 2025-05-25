@@ -37,7 +37,6 @@ bool logic::createLists() {
 	}
 	cout << endl;*/
 	
-	
 
 }
 void::end() {
