@@ -10,7 +10,7 @@ using namespace std;
 
 logic::logic() {
 	word = " ";
-	scramble = " ";
+	//scramble = " ";
 	std::srand(static_cast<unsigned int>(std::time(nullptr))); //starts random number generator each time program starts
 }
 
@@ -27,10 +27,10 @@ bool logic::createLists() {
 		cerr << "Cannot locate file!!";
 		return 1;
 	}
-	///*std::cout << "Words loaded: " << words.size() << std::endl;
-	//std::cout << "Small worrds: " << smallWords.size() << std::endl;
-	//std::cout << "Medium words: " << mediumWords.size() << std::endl;
-	//std::cout << "Large words: " << largeWords.size() << std::endl;*/
+	///*std::cout << "Words loaded: " << words.size();
+	//std::cout << "Small worrds: " << smallWords.size();
+	//std::cout << "Medium words: " << mediumWords.size();
+	//std::cout << "Large words: " << largeWords.size();*/
 	
 	//storing words based on their length
 	while (readFile >> word) {
